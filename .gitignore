@@ -3,3 +3,4 @@
 /__pycache__
 /ffmpeg-6.1-amd64-static
 /libopus
+test.py
