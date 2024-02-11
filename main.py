@@ -7,10 +7,9 @@ import os
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='$', intents=intents)
-#discord.opus.load_opus('libopus/lib/libopus.so')
+discord.opus.load_opus('libopus/lib/libopus.so')
 
-#TOKEN = os.environ['TOKEN']
-TOKEN = 'MTIwNDkxODYyNDA1NDI4ODQ5Ng.G1jwRQ.KD686fSV-Giy7dF5gs37F97SPFyrozQfpsw_hE'
+TOKEN = os.environ['TOKEN']
 
 ytdl_format_options = {
     'format': 'bestaudio/best',
