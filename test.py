@@ -1,8 +1,8 @@
 import yt_dlp
 import os
 
-if os.path.exists("./audio/*"):
+if os.path.existes("./audio/*"):
     os.remove("./audio/*")
     print("file removeed.")
 else:
-    print("no file existed")
+    print("no file")
